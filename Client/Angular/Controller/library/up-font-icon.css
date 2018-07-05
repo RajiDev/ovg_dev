@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "up-arwen";
+  src:url("../fonts/up-arwen.eot");
+  src:url("../fonts/up-arwen.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/up-arwen.woff") format("woff"),
+    url("../fonts/up-arwen.ttf") format("truetype"),
+    url("../fonts/up-arwen.svg#up-arwen") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "up-arwen" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="up-"]:before,
+[class*=" up-"]:before {
+  font-family: "up-arwen" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.up-location-check:before {
+  content: "\62";
+}
+.up-check:before {
+  content: "\63";
+}
+.up-check-square:before {
+  content: "\64";
+}
+.up-cancel:before {
+  content: "\61";
+}
+.up-right-open:before {
+  content: "\66";
+}
+.up-left-open:before {
+  content: "\67";
+}
+.up-up-open:before {
+  content: "\68";
+}
+.up-down-open:before {
+  content: "\69";
+}
+.up-caret-up:before {
+  content: "\6a";
+}
+.up-caret-down:before {
+  content: "\6b";
+}
+.up-plus:before {
+  content: "\6c";
+}
+.up-minus:before {
+  content: "\6d";
+}
+.up-trash:before {
+  content: "\6e";
+}
+.up-pencil:before {
+  content: "\6f";
+}
+.up-search:before {
+  content: "\70";
+}
+.up-bag:before {
+  content: "\71";
+}
+.up-circle-o:before {
+  content: "\72";
+}
+.up-circle-full:before {
+  content: "\73";
+}
+.up-ios-search-strong:before {
+  content: "\74";
+}
+.up-ios-search:before {
+  content: "\75";
+}
+.up-bag-1:before {
+  content: "\65";
+}
+.up-up-arrow:before {
+  content: "\76";
+}
+.up-search-1:before {
+  content: "\77";
+}
+.up-right-arrow:before {
+  content: "\78";
+}
+.up-powered:before {
+  content: "\79";
+}
+.up-left-arrow:before {
+  content: "\7a";
+}
+.up-down-arrow:before {
+  content: "\41";
+}
+.up-cart:before {
+  content: "\42";
+}
+.up-customise:before {
+  content: "\43";
+}
+
+.up-menu:before {
+  content: "\44";
+}
+.up-menu-1:before {
+  content: "\45";
+}
+
+/*overriding up font icons line-height prop*/
+[class*=" up-"]:before, [class^=up-]:before{
+  line-height: normal !important;
+}

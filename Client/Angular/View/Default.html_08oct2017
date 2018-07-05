@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107287421-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107287421-1');
+</script>
+
+<title>Online Vanigam</title>
+    <meta http-equiv="Content-Type" content="html; charset=utf-8">
+    <meta name="description" content="We deliver crackers at your door steps in short period with gurantee and attractive discount price">
+    <meta property="og:title" content="Online Vanigam" />
+    <meta property="og:url" content="https://www.onlinevanigam.com" />
+    <meta property="og:description" content="We deliver crackers at your door steps in short period with gurantee and attractive discount price">
+    <meta property="og:image" content="https://www.onlinevanigam.com/whatsapp.jpg">
+    <meta property="og:type" content="article" />
+    <meta name="robots" content="index, follow">
+    <meta name="Googlebot" content="index, follow">
+    <meta id="ctl00_viewport" name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<!--    <meta name="format-detection" content="telephone=no">	 -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">    
+    <meta name="theme-color" content="#ffd300 ">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>	
+	<meta name="theme-color" content="#ffd300 ">    
+	<script src="/dependency/angular.min.js" type="text/javascript"></script>
+	<script src="/module/AddressFinderModel.js" type="text/javascript"></script>
+	<script src="/controller/ReferenceController.js" type="text/javascript"></script>	   
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">    
+    <script src="external_js/owl.carousel.min.js"></script>    
+    <link rel="SHORTCUT ICON" href="/controller/favicon.ico" />     
+    <link rel="stylesheet" href="library/up-font-icon.css">
+    <link href="css/template.css" rel="stylesheet">    
+	<style type="text/css">
+	   @media (min-width:320px) {                       
+            .mobimgwidth {
+               width:100%;
+			   padding-top:6%;
+            }
+			
+			}
+			 @media (min-width:1281px) {
+			  .mobimgwidth {
+               width:100%;
+			   padding-top:0%;
+            }
+			}
+	</style>
+
+	</head>
+	<body id="landing_page" >
+		<div ng-app="Referencemodeule" ng-controller="ReferenceController" >
+			<div class="main-app">
+				<div class="up-header">					
+					<div class="header-body">
+						<div class="grid">
+							<div class="row">
+								<div class="col header-body-section-container">									
+									<div class="header-body-section">
+										<div class="site-header-logo"><a class="UP-ROUTE-INDEX"><span class="logo-helper"></span> <img src="images/logo.png?v=1.0"></a></div>
+									</div>								
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>											
+				<div class="up-page hide landing-page" id="home">
+					<div class="landing-conatainer default">
+						<div class="landing-sections custom-section">
+							<div class="section-overlay"></div>
+							<div class="grid">
+								<div class="col">
+									<div class="row section-content">
+										<div class="custom-landing">
+											<!--- responsive view header -->
+											<div class="resp-header">
+												<div class="logo-div"><img src="images/logo1.png" class="logo" alt=" logo">
+													<p class="trade-para">May Happiness And Contentment Fill Your Life</p>
+													<h3 class="site-title">Sri Krishna Fireworks</h3>
+																																						
+												</div>
+												</div>
+											<!--/ responsive view header -->
+											<!--- web view header -->																					
+											<div class="seearch-section web-header"><img src="images/logo1.png" class="logo" alt="Krishnabrand logo icon">
+											
+												<p class="trade-para">May happiness and contentment fill your life</p>
+												<h3 class="site-title">Sri Krishna Fireworks</h3>												
+												<div class="clearfix"></div>
+												
+												<div class="delivery-loc-div" style="padding-left: 80px;"><span class="current-span">Currently we deliver:</span> <span class="location-span"><ul class="deliver-ul"><li class="loc-li">Chennai</li><li class="loc-li">Pondicherry</li><li class="loc-li">Rest of Tamil Nadu</li></ul></span></div>		
+												<br><marquee bgcolor=orange width=200 height=20  direction=left > <a href="/itemsPage{{referer}}"> Cash On Delivery Available</a>	</marquee>											
+												<div class="clearfix"></div>
+												<div class="min-order-div">
+													<div class="min-order-name">Free Delivery in Chennai/TN</div>	
+<ul style="padding-top: 17px;" class="deliver-ul"><li class="loc-li">Minimum Order in Chennai ₹1000</li><li>Rest of TN ₹3000</li></ul>
+											
+												</div>
+												<div class="clearfix" style="margin-top: 15px;"></div>												 
+                                               <a class="ordernow-btn" style="background-color:#ff2300;"  href="/itemsPage{{referer}}">Click Here to Order</a>
+																							 
+												
+											</div>
+											<!--- banner -->
+											<div class="bg-banner">
+												<div id="owl-demo" class="owl-carousel owl-theme">
+													<div class="item"><img src="images/banner1.jpg" class="mobimgwidth" alt="Krishnabrand banner" ></div>
+													<div class="item"><img src="images/banner2.jpg" class="mobimgwidth" alt="Krishnabrand banner"></div>								
+												</div>
+											</div>
+											<!--/ banner -->
+											<div class="clearfix"></div>
+											<!--- search box -->
+											<div class="resp-search-div" >
+												<div class="container">
+												<div>
+												<div class="min-order-div">
+														<div class="min-order-name">Cash on Delivery Available</div> 
+														<span class="location-span" style="padding-top:3%"><ul class="deliver-ul"><li class="loc-li">Chennai</li><li class="loc-li">Pondicherry</li><li>Rest of Tamil Nadu</li></ul></span>
+														<br><br>
+														</div>
+														
+												<div style="padding-top:3%" ><span class="location-span">
+												<ul class="deliver-ul"><li class="loc-li">Minimum Order in Chennai ₹1000</li><li>Rest of TN ₹3000</li></ul>
+												
+												</span></div>
+												
+												<img src="clickD.gif" style="width: 110px;"/>
+												</div>												
+												 <a class="ordernow-btn" style="background-color:  #ff2300;" href="/itemsPage{{referer}}">Click Here To View Crackers </a>												
+																																						
+													<div class="clearfix"></div>
+													<div >												                                                     
+													  <p><h3 class="site-title">Contact Us:</h3>:<a style="color:brown;" >+91-9952066760</a>,<a  style="color:brown;" >+91-9487694198</a></p>
+													</div>
+													<div class="clearfix" style="margin-top: 15px;"></div>													
+												</div>
+											</div>
+											<div class="clearfix"></div>											
+											<div class="clearfix"></div>										
+											<div class="clearfix"></div>										
+											<div class="clearfix"></div>											
+											<!--- testimonials -->										
+											<div class="clearfix"></div>
+											<!---/ testimonials -->
+											<!--- footer -->																				
+											<div class="clearfix"></div>											
+											<div>
+											</div>
+											<div>
+											</div>											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>							
+			</div>			
+		</div>		
+	</body>
+</html>
+     
+    <script type="text/javascript" src="js/config.js?v=6.0.19"></script>	
+    <script type="text/javascript" src="js/app.js?v=6.0.19"></script>    
+    <script src="external_js/script.js"></script>
+	
+

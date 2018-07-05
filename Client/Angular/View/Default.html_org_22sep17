@@ -1,0 +1,519 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Online Vanigam</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="We deliver crackers at your door steps in short period with guranteed and attractive discount price">
+    <meta property="og:title" content="Online Vanigam" />
+    <meta property="og:url" content="https://www.onlinevanigam.com" />
+    <meta property="og:description" content="We deliver crackers at your door steps in short period with guranteed abnd attractive discount price">
+    <meta property="og:image" content="https://www.onlinevanigam.com/whatsapp.jpg">
+    <meta property="og:type" content="article" />
+    <meta name="robots" content="noindex, nofollow">
+    <meta id="ctl00_viewport" name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+    <meta name="format-detection" content="telephone=no">
+    <script src="/dependency/angular.min.js" type="text/javascript"></script>
+    <script src="/dependency/ng-pattern-restrict.js" type="text/javascript"></script>
+    <script src="/dependency/linq.js" type="text/javascript"></script>
+    <script src="/dependency/ngSanitize.js" type="text/javascript"></script>
+    <script src="/dependency/ng-storage.min.js" type="text/javascript"></script>
+    <script src="/module/AddressFinderModel.js" type="text/javascript"></script>
+    <script src="/service/AddressFinderProviderService.js" type="text/javascript"></script>
+    <script src="/controller/AddressFinderController.js" type="text/javascript"></script>
+    <link rel="SHORTCUT ICON" href="/controller/favicon.ico" />
+    <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/style.css" type="text/css" rel="stylesheet" />
+    <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/common.css" type="text/css" rel="stylesheet" />
+    <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/uicontrols.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/easy-responsive-tabs.css" type="text/css" rel="stylesheet" />
+    <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/sim-plan.css" rel="stylesheet" type="text/css" />
+    <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/overlay.css" rel="stylesheet" type="text/css" />
+    <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/angular.min.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        var ResPath = 'https://account.lycamobile.co.uk/Library/lyca-pro/';
+    </script>
+    <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/commonfunction.js" type="text/javascript"></script>
+    <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/swfobject.js" type="text/javascript"></script>
+    <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/modernizr-2.6.2-respond-1.1.0.min.js" type="text/javascript"></script>
+    <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/jquery.tools.min.js" type="text/javascript"></script>
+    <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/account-common-fns.js" type="text/javascript"></script>
+    <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/jquery.colorbox.js" type="text/javascript"></script>
+    <link rel='canonical' href='http://www.lycamobile.co.uk/en/' />
+    <link rel='alternate' href='http://www.lycamobile.co.uk/en/' hreflang='en-gb' />
+    <link href="/dependency/cookie.css" type="text/css" rel="stylesheet" />
+    <script src="/dependency/cookie.js" type="text/javascript"></script>
+    <script type="text/javascript"></script>
+    <style type="text/css">
+        .plan-data-panel .head1 img,
+        .plan-data-panel .head2 img,
+        .plan-data-panel .head3 img,
+        .plan-data-panel .head4 img,
+        .plan-data-panel .head5 img {
+            position: absolute;
+            right: 50px;
+            top: 5px;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 400px;
+            margin-left: 720px;
+        }
+
+        .fixed1 {
+            position: fixed;
+            top: 678px;
+            right: 2px;
+            margin-left: 720px;
+        }
+
+        .fixed2 {
+            position: fixed;
+            top: 678px;
+            right: 212px;
+            margin-left: 720px;
+        }
+
+        @media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape) {
+            .cc-window.cc-banner {
+                flex-direction: unset !important;
+                padding: 0px !important;
+            }
+        }
+    </style>
+    <style>
+        @media (min-width:320px) {
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                padding: 0px;
+            }
+
+            th {
+                text-align: center;
+            }
+
+            table {
+                width: 100%;
+                margin-right: auto;
+            }
+
+            tbody {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        @media (min-width:1281px) {
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                padding: 0px;
+            }
+
+            th {
+                text-align: center;
+            }
+
+            table {
+                width: 100%;
+                margin-right: auto;
+            }
+
+            tbody {
+                display: block;
+                width: 100%;
+            }
+
+            tbody {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<div ng-app="addressFinder" ng-controller="AddressFinderController">
+    <center ng-if='Home'>
+        <h3>
+            <div> <img src="logo.jpg" alt="Mountain View" style="width:67%;"/> </div>
+            </br>
+            <font color="steelblue">We deliver crackers at your door steps in short period with guranteed abnd attractive discount price</font>            		
+            </br>
+            <button style="width:20%"  class="btn-typ1" id="btnFindAddress" name="btnFindAddressang" ng-click='Redirect()'>Click Here to Order</button>
+            </br>
+            <font color="steelblue"><b>Door delivery facility available</b></font>			
+            </br>
+         </h3>
+
+        <body bgcolor="">
+            <style>
+                .skipped {
+                    width: 90%;
+                    font-size: 16px;
+                    padding: 3px;
+                }
+
+                @media (min-width:320px) {
+                    body {
+                        background-image: url("cracker2.gif");
+                        height: 65%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 500%;
+                    }
+                }
+
+                @media (min-width:1281px) {
+                    body {
+                        background-image: url("cracker2.gif");
+                        height: 65%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: 125%;
+                    }
+                }
+
+                @media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape) {
+                    .cc-window.cc-banner {
+                        flex-direction: unset !important;
+                        padding: 0px !important;
+                    }
+                }
+            </style>
+            <footer ng-if="Home">
+                <p><font color="white">Contact Us</font></p>
+                <p><font color="green">Mobile:</font> <a font color="orange" href="tel:9952066760">+91-9952066760</a>,<a font color="orange" href="tel:9487694198">+91-9487694198</a></p>
+                <p><font color="green">Email:</font> <a href="mailto:info@onlinevanigam.com"><font color="orange">info@onlinevanigam.com</font></a></p>
+                <br>
+	        <font size="2" color="white">Posted & Powered by</font>
+                <br>
+                <font size="3" color="blueviolet"><b>OnlineVanigam Group</b></font>
+                <p><font color="deepskyblue">An Authorized Dealer of</font></p>
+                <font color="purple"><b><big>Sri Krishna</big></b><sup><small>TM</small></sup> Fireworks, Sivakasi</font>
+            </footer>
+        </body>
+    </center>
+
+    <div ng-show='Table'>
+        <div class="row-fluid content-area" style='background-color: white;'>
+            <div ng-cloak ng-form name="myForm" ng-novalidate>
+                <div class="col-md-12" style="margin-top: 0%; background-color: gold; border: 6px solid #acb6ad; }" ng-show="Desktop">
+                    <div class="col-md-2">
+                        <img style="padding-left: 22%; height: 269px; width: 100%; padding-top: 17px" ng-src="logo1.jpg">
+                    </div>
+                    <div class="col-md-4" style="font-size: 1.8em; padding-top: 17px">
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Name*:</span>
+                            <span style="float: left; width: 58%;">
+                                <input class=" skipped" type="text" name="{{::config.RfValidator}}" ng-pattern-restrict="^[a-zA-Z _]*$" ng-model="model['Name']" /></span>
+                        </div>
+                        <div style="clear: both;">&nbsp;</div>
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Mobile*:</span>
+                            <span style="float: left; width: 58%;">
+                                <input class=" skipped" type="number" name="{{::config.RfValidator}}" ng-model="model['PhoneNumber']" ng-pattern-restrict="^[0-9]{0,10}$" maxlength="10" /></span>
+                        </div>
+                        <div style="clear: both;">&nbsp;</div>
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Email  :</span>
+                            <span style="float: left; width: 58%;">
+                                <input type="email" class=" skipped" ng-model="model['Email']"></span>
+                        </div>
+                        <div style="clear: both;">&nbsp;</div>
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Address  :</span>
+                            <span style="float: left; width: 58%;">
+                                <textarea name="Text1" cols="40" rows="5" ng-model="model['Address']" style="width: 100%;height: 70px;"></textarea></span>
+                        </div>
+                        <div style="clear: both;">&nbsp;</div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 style='color: red;'>Door Delivery in Chennai(Minimum Order ₹500) </br> Delivery in Rest of Tamilnadu(Minimum order ₹5000) </br> Discounts upto 30%</h3>
+                        <h3>Contact Us:<a font color="orange" href="tel:9952066760">+91-9952066760</a>,<a font color="orange" href="tel:9487694198">+91-9487694198</a></h3>
+                        <div style="padding-top: 50px; padding-left: 125px;">
+                            <select style="width: 240px; height: 36px; background-color: darkgray; font-weight: bold; color: initial;" ng-options="size as size.name for size in sizes" ng-init="SelectedValue = sizes[0]" ng-model="SelectedValue" ng-change="DropdownChange()">
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" style="margin-top: 0%; background-color: gold; border: 6px solid #acb6ad;" ng-show="!Desktop">
+                    <div class="col-md-2">
+                        <img ng-src="mob_logo.jpg">
+                    </div>
+                    <div class="col-md-3" style="font-size: -0.2em; padding-top: 7px">
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Name*:</span>
+                            <span style="float: left; width: 58%;">
+                                <input class=" skipped" type="text" name="{{::config.RfValidator}}" ng-pattern-restrict="^[a-zA-Z _]*$" ng-model="model['Name']" /></span>
+                        </div>
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Mobile*:</span>
+                            <span style="float: left; width: 58%;">
+                                <input class=" skipped" type="number" name="{{::config.RfValidator}}" ng-model="model['PhoneNumber']" ng-pattern-restrict="^[0-9]{0,10}$" maxlength="10" /></span>
+                        </div>
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Email  :</span>
+                            <span style="float: left; width: 58%;">
+                                <input type="email" class=" skipped" ng-model="model['Email']"></span>
+                        </div>
+                        <div style="clear: both;">
+                            <span style="float: left; width: 120px;">Address  :</span>
+                            <span style="float: left; width: 58%;">
+                                <textarea name="Text1" cols="40" rows="5" ng-model="model['Address']" style="width: 120%;height: 45px;"></textarea></span>
+                        </div>
+                        <div style="clear: both;">&nbsp;</div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 style='color: red;'>Door Delivery in Chennai(Minimum Order ₹500) </br> Delivery in Rest of Tamilnadu(Minimum order ₹5000) </br> Discounts upto 30%</h5>
+                        <h5>Contact Us:<a font color="orange" href="tel:9952066760">+91-9952066760</a>,<a font color="orange" href="tel:9487694198">+91-9487694198</a></h5>
+                    </div>
+                </div>
+                <div id="dvAddressFinder" style="padding-top: 26px; border: 6px solid #acb6ad;">
+                    <div class="col-md-12" style="width: 100%; border: 1px; background-color: white">
+                        <div ng-repeat="config in $root.$$childHead.addressFinderConfigurations?$root.$$childHead.addressFinderConfigurations:addressFinderConfigurations track by $index">
+                            <div class="col-md-2" ng-if="config.RfValidator==''&&!Desktop">
+                                <a href="#{{config.visible}}">
+                                    <button style="width: 100%;" class="btn-typ1 align" id="{{config.visible}}" name="{{config.visible}}" ng-click='ShowHideFunction($event)'>{{config.RfValidatorMinMax}}<span style="padding-left: 10%;" ng-if="ShowHide[config.visible]">-</span><span style="padding-left: 10%;" ng-if="!ShowHide[config.visible]">+</span></button>
+                                </a>
+                                <br>
+                            </div>
+                            <div class="col-md-2" ng-if="config.RfValidator==''&&!Desktop">
+                                <br>
+                            </div>
+                            <div ng-show="config.RfValidator>0&&ShowHide[config.visible]" class="col-md-3" style="border: 1px solid #11dc2a">
+                                <img style="padding-left: 22%;" ng-src="{{config.LblName}}.jpg">
+                                <h4>
+                                    <div ng-if="config.RfValidator>0">
+                                        <literal style='color: #036eb6; font-weight: bold' id="id_{{::config.Quantity}}_literal">{{config.RfValidatorMinMax}}</literal>
+                                        <br>
+                                        Contains:<span style="color: darkorange;">{{config.Quantity}}</span> <span style="color: red; font-weight: bold;">/</span>
+                                        Price:<span style="color: darkorange; font-weight: bold; padding-left: 5px">₹</span>
+                                        <literal style='color: darkorange; font-weight: bold;' id="id_{{::config.RfValidator}}_literal" ng-bind="::config.RfValidator"></literal>
+                                        <br>
+                                        Quantity:<input type="number" name="{{::config.RfValidator}}" placeholder="Count" ng-model="model[config.LblName]" ng-change="change()" id="{{config.LblName}}" ng-pattern-restrict="^[0-9]{0,3}$" style="width: 35%;" tabindex="6" ng-pattern-reict="{{::number}}" />
+                                        <span style="color: darkorange; font-weight: bold; padding-left: 15px" ng-if="model[config.LblName]*Price[config.LblName]>0">₹</span>   <span style="color: darkorange; font-weight: bold;" ng-bind="model[config.LblName]*Price[config.LblName]" ng-if="model[config.LblName]*Price[config.LblName]>0"></span>
+                                    </div>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    </br>
+                    </br>
+                    </br>
+               
+                </div>
+                <div style="padding-top: 10px">
+                    &nbsp;&nbsp;&nbsp;
+
+               
+                </div>
+                <div style="padding-top: 10px">
+                    &nbsp;&nbsp;&nbsp;
+
+               
+                </div>
+                <div style="padding-top: 10px">
+                    &nbsp;&nbsp;&nbsp;
+
+               
+                </div>
+                <div style="padding-top: 10px">
+                    &nbsp;&nbsp;&nbsp;
+
+               
+                </div>
+                <div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-classic cc-bottom cc-color-override--1247229048 visible-phone visible-tablet  " style="padding-top: 10px">
+                    <span id="cookieconsent:desc" class="cc-message"><span style="font-weight: bold; font-size: x-large; color: green">Total Amount:₹{{TotalAMount}}</span>
+                        <button class="btn-typ1 align-R" style="display: inline-block; float: right" id="Button1" name="btnFindAddressang" ng-click='ViewOrderDetails()'>Place Order</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-if='PaymentDetails' class="container" style="width: 100%; background: #fff; float: left;">
+        <div class="hd-typ16">
+            <span class="bill-icon">Mode Of Payment</span>
+        </div>
+        <div class="pd15" style="font-size: 1.4em; width: 100%; text-align: center;">
+            <span style="float: left; margin-right: 10%;">
+                <input type="radio" ng-model="PaymentMethod.mode" value="1" />Paytm QR Code Scanner
+				</span>
+            <span style="float: left;">
+                <input type="radio" ng-model="PaymentMethod.mode" value="2" />
+                Cash On delivery</span><span style="float: left; margin-right: 50%; margin-top: 2%;">TotalAmount :₹{{TotalAMount}}</span>
+        </div>
+        <div style="clear: both;">&nbsp</div>
+
+        <div class="pd15" ng-if="PaymentMethod.mode=='1'" style="width: 100%; background: #fff; float: left;">
+
+            <div style="width: 30%; background: #fff; margin: 0 auto;">
+                <img src="paytm.jpg" alt="Qr View">
+            </div>
+
+        </div>
+        <div>
+            <span>
+                <button class="btn-typ1 " style="display: inline-block;" id="Button5" name="btnFindAddressang" ng-click='GotoItem()'>Go Back</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   
+                <button class="btn-typ1" style="display: inline-block;" id="Button4" name="btnFindAddressang" ng-click='ProceedPayment($event)'>Submit</button>
+
+            </span>
+        </div>
+
+
+    </div>
+
+    <div class="container" ng-show='ThankYouPage'>
+        <div>
+            <img src="logo.jpg" alt="Mountain View" style="width: 100%; height: 229px;">
+        </div>
+        <div class="box-typ4 pd20 mrg10-T">
+            <div class="box-typ5 mrg10-B pd15-LR msg-box error-msg-typ1" id="divError" ng-if="Status!='Success Your order taken successfully'">
+                <img id="ctl00_cphPro_imgDivError" src="https://account.lycamobile.co.uk/Library/lyca-pro/images/icon-errormsg.png" style="border-width: 0px;">
+                <span id="ctl00_cphPro_lblDivError">{{Status}}</span>
+            </div>
+            <div class="box-typ5 mrg10-B pd15-LR msg-box" style="background: #bbfcc4; color: #038036; padding-bottom: 15px; border-radius: 5px;" id="div1" ng-if="Status=='Success Your order taken successfully'">
+
+                <span id="Span1">{{Status}}</span>
+            </div>
+            <h2 class="fs22 f-gray" style="line-height: 1; font-weight: 400;">Hello <span ng-bind="model['Name']"></span></h2>
+            <p class="f-gray mrg10-TB">Thank you for your order from Online Vanigam . If you have any questions about your order please contact us at <a class="" href="mailto:info@onlinevanigam.com">info@onlinevanigam.com</a> or call us at <a font color="orange" href="tel:9952066760">+91-9952066760</a>,<a font color="orange" href="tel:9487694198">+91-9487694198</a></p>
+            <h6>
+                <p class="fs16 mrg10-B f-gray"><strong>Your Order </strong><strong><span ng-bind="TransId"></span></strong>(placed on {{Date}})  will be dispatched Shortly.Our assistance will call to confirm the date of delivery. You can the date of delivery</p>
+                <span style="font-weight: bold;">TotalAmount :₹{{TotalAMount}}</span>
+            </h6>
+            <div class="pos-rel clearfix mrg20-T">
+                <button class="btn-typ1 align-R" style="display: inline-block; float: right" id="Button6" name="btnFindAddressang" ng-click='ShowOrderDetails()'><span ng-if="!ShowOrder">View Order</span><span ng-if="ShowOrder">Hide Order</span></button>
+            </div>
+
+            <div ng-if="ShowOrder && Desktop" class="pos-rel clearfix mrg20-T">
+                <div class="col-md-12">
+                    <div class="col-md-3" style="border: 1px solid #11dc2a">
+                        <literal style='font-weight: bold' id="Literal1">Cracker Name</literal>
+                    </div>
+                    <div class="col-md-3" style="border: 1px solid #11dc2a">
+                        <literal style='font-weight: bold' id="Literal2">Price</literal>
+                    </div>
+                    <div class="col-md-3" style="border: 1px solid #11dc2a">
+                        <literal style='font-weight: bold' id="Literal3">Quantity</literal>
+                    </div>
+                    <div class="col-md-3" style="border: 1px solid #11dc2a">
+                        <literal style='font-weight: bold' id="Literal4">Total</literal>
+                    </div>
+                </div>
+            </div>
+            <div class="pos-rel clearfix " ng-if="ShowOrder">
+                <div ng-repeat="config in $root.$$childHead.addressFinderConfigurations?$root.$$childHead.addressFinderConfigurations:addressFinderConfigurations track by $index">
+                    <div class="col-md-12" ng-if="model[config.LblName]>0">
+                        <div class="col-md-3" style="border: 1px solid #11dc2a; text-align: right;">
+                            <literal style='font-weight: bold' id="Literal5">{{config.RfValidatorMinMax}}</literal>
+                        </div>
+                        <div class="col-md-3" style="border: 1px solid #11dc2a; text-align: right;">
+                            <literal ng-if="!Desktop" style='font-weight: bold' id="Literal6">Price</literal>
+                            <span style="color: darkorange; font-weight: bold; padding-left: 5px">₹</span>
+                            <literal style='color: darkorange; font-weight: bold;' id="Literal7" ng-bind="::config.RfValidator"></literal>
+                        </div>
+                        <div class="col-md-3" style="border: 1px solid #11dc2a; text-align: right;">
+                            <literal ng-if="!Desktop" style='font-weight: bold' id="Literal8">Quantity</literal>
+                            <span ng-bind="model[config.LblName]" id="Span2" style="width: 35%;" tabindex="6"></span>
+                        </div>
+                        <div class="col-md-3" style="border: 1px solid #11dc2a; text-align: right;">
+                            <literal ng-if="!Desktop" style='font-weight: bold' id="Literal9">Total</literal>
+                            <span style="color: darkorange; font-weight: bold; padding-left: 15px" ng-if="model[config.LblName]*Price[config.LblName]>0">₹</span> <span style="color: darkorange; font-weight: bold;" ng-bind="model[config.LblName]*Price[config.LblName]" ng-if="model[config.LblName]*Price[config.LblName]>0"></span>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="order-info mrg20-T">
+                <div class="row-fluid">
+                    <div class="span4" style="margin-bottom: 15px;" ng-if="false">
+                        <div class="box-typ4" style="height: 171px;">
+                            <div class="hd-typ16">
+                                <span class="bill-icon">Billing Information</span>
+                            </div>
+                            <div class="pd15">
+                                <p class="fs12 mrg10-B" ng-bind="model['Name']"></p>
+                                <p class="fs12" ng-bind="model['Address']"></p>
+                                <p class="mrg0-B"><strong>Phone</strong> : <span ng-bind="model['PhoneNumber']"></span></p>
+                                <p class="mrg0-B"><strong>E-mail</strong> : <a class="" href="mailto:{{model['Email']}}"><span ng-bind="model['Email']"></span></a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span4" style="margin-bottom: 15px;">
+                        <div class="box-typ4">
+                            <div class="hd-typ16">
+                                <span class="payment-icon">Payment method</span>
+                            </div>
+                            <div class="pd15" style="padding: 15px;">
+                                <p class="mrg0-B">
+                                    <div class="pd15" ng-show="PaymentMethod.mode=='1'">
+                                        <p>Paytm Qr Code Scan Now also you can make payment if not sent</p>
+                                        <p>
+                                            <img style="max-width: 15%;" src="paytmOredr.jpg" alt="Qr View">
+                                        </p>
+                                    </div>
+                                    <div class="pd15" ng-show="PaymentMethod.mode!='1'">
+                                        <p>Cash On delivery </p>
+                                    </div>
+                                    <br>
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="span4" style="margin-bottom: 15px;">
+                        <div class="box-typ4" style="height: 171px;">
+                            <div class="hd-typ16">
+                                <span class="shipping-icon">Shipping information</span>
+                            </div>
+                            <div class="pd15">
+                                <p class="fs12 mrg10-B" ng-bind="model['Name']">
+                                </p>
+                                <p class="fs12">
+                                    <span ng-bind-html="model['Address']"></span>
+                                </p>
+                                <p class="mrg0-B"><strong>Phone</strong> : <span ng-bind="model['PhoneNumber']"></span></p>
+                                <p class="mrg0-B">
+                                    <strong>Email : </strong><a class="" href="mailto:{{model['Email']}}"><span ng-bind="model['Email']"></span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pos-rel clearfix mrg20-T visible-desktop print-btn" ng-if="Desktop">
+                <a href="javascript: window.print();" class="btn-typ1 pull-right printbtn" title="Next"><span class="print-icon">Print</span></a>
+            </div>
+            <div class="pos-rel clearfix mrg20-T visible-desktop print-btn">
+                <button class="btn-typ1 align-R" style="display: inline-block; float: right" id="Button2" name="btnFindAddressang" ng-click='GotoMain()'>Go to Home Page</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</html>

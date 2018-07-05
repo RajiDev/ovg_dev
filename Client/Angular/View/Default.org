@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<html >
+   <head>
+      <title>Online Vanigam</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="description" content="We give the crackers with maximum discount of 30%">
+	  <meta property="og:title" content="Online Vanigam" />
+	  <meta property="og:url" content="https://www.onlinevanigam.com" />
+	  <meta property="og:description" content="We give the crackers with maximum discount of 30% S">
+	  <meta property="og:image" content="https://www.onlinevanigam.com/whatsapp.jpg">
+	  <meta property="og:type" content="article" />
+      <meta name="robots" content="noindex, nofollow">
+      <meta id="ctl00_viewport" name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+      <meta name="format-detection" content="telephone=no">
+      <script src="/dependency/angular.min.js" type="text/javascript"></script>
+      <script src="/dependency/ng-pattern-restrict.js" type="text/javascript"></script>
+      <script src="/dependency/linq.js" type="text/javascript"></script>
+      <script src="/dependency/ngSanitize.js" type="text/javascript"></script>
+      <script src="/dependency/ng-storage.min.js" type="text/javascript"></script>
+      <script src="/module/AddressFinderModel.js" type="text/javascript"></script>
+      <script src="/service/AddressFinderProviderService.js" type="text/javascript"></script>
+      <script src="/controller/AddressFinderController.js" type="text/javascript"></script>
+      <link rel="SHORTCUT ICON" href="/controller/favicon.ico" />
+      <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/style.css" type="text/css"
+         rel="stylesheet" />
+      <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/common.css" type="text/css"
+         rel="stylesheet" />
+      <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/uicontrols.css" type="text/css"
+         rel="stylesheet" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/easy-responsive-tabs.css"
+         type="text/css" rel="stylesheet" />
+      <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/main.css" type="text/css"
+         rel="stylesheet" />
+      <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/sim-plan.css" rel="stylesheet"
+         type="text/css" />
+      <link href="https://account.lycamobile.co.uk/Library/lyca-pro/css/common/overlay.css" rel="stylesheet"
+         type="text/css" />
+      <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/angular.min.js" type="text/javascript"></script>
+      <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css" />
+      <script type="text/javascript">
+         var ResPath = 'https://account.lycamobile.co.uk/Library/lyca-pro/';
+      </script>
+      <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/commonfunction.js" type="text/javascript"></script>
+      <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/swfobject.js" type="text/javascript"></script>
+      <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/modernizr-2.6.2-respond-1.1.0.min.js"
+         type="text/javascript"></script>
+      <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/jquery.tools.min.js" type="text/javascript"></script>
+      <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/account-common-fns.js" type="text/javascript"></script>
+      <script src="https://account.lycamobile.co.uk/Library/lyca-pro/js/jquery.colorbox.js" type="text/javascript"></script>
+      <link rel='canonical' href='http://www.lycamobile.co.uk/en/' />
+      <link rel='alternate' href='http://www.lycamobile.co.uk/en/' hreflang='en-gb' />
+      <link href="/dependency/cookie.css"
+         type="text/css" rel="stylesheet" />
+      <script src="/dependency/cookie.js" type="text/javascript"></script>
+      <script  type="text/javascript"></script>
+      <style type="text/css">
+         .plan-data-panel .head1 img, .plan-data-panel .head2 img, .plan-data-panel .head3 img, .plan-data-panel .head4 img, .plan-data-panel .head5 img
+         {
+         position: absolute;
+         right: 50px;
+         top: 5px;
+         }
+         .fixed {  
+         position: fixed;   
+         bottom: 400px;
+         margin-left: 720px;  
+         }
+         .fixed1 {  
+         position: fixed;   
+         top: 678px;  
+         right: 2px;
+         margin-left: 720px;  
+         }
+         .fixed2 {  
+         position: fixed;   
+         top: 678px;  
+         right: 212px;
+         margin-left: 720px;  
+         }
+         @media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape){
+         .cc-window.cc-banner {
+         flex-direction: unset !important;
+         padding: 0px !important;
+         }
+         }
+      </style>
+      <style>
+         @media (min-width:320px)  { 
+         table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         }
+         th, td {
+         padding:0px;
+         }
+         th {
+         text-align: center;
+         }
+         table {
+         width: 100%;
+         margin-right: auto;
+         }
+         tbody { display: block;
+         width: 100%;
+         }
+         }
+         @media (min-width:1281px) {
+         table, th, td {
+         border: 1px solid black;
+         border-collapse: collapse;
+         }
+         th, td {
+         padding:0px;
+         }
+         th {
+         text-align: center;
+         }
+         table {
+         width: 100%;
+         margin-right: auto;
+         }
+         tbody { display: block;
+         width: 100%;
+         }
+         tbody {
+         width: 100%;
+         }
+         }
+      </style>
+   </head>
+   <div ng-app="addressFinder" ng-controller="AddressFinderController">
+      <center ng-if="Home">
+         <h3 ng-if="Home">
+            <div> <img src="logo.jpg" alt="Mountain View" style="width:80% height:20%"> </div>
+            <br>
+            <font color="steelblue">We give you <b>Quality Crackers</b> with Maximum Discount upto 30%.</font>            		
+            <br>
+            <button style="width:20%"  class="btn-typ1" id="btnFindAddress" name="btnFindAddressang" ng-click='Redirect()'>Click Here to Order</button>
+            <br>
+            <font color="steelblue"><b>Home Delivery in chennai</b></font>			
+            <br>
+	<!--<a href="/var/www/html/CRACK/Client/Angular/View/Krishna-fireworks-pricelist.pdf" target="">Download Price list</a>-->
+         </h3>
+         <body bgcolor="" ng-if="Home">
+            <!--<body bgcolor="rgb(0,0,0)">-->
+            <!--<body bgcolor="black">-->
+            <!--<body background="cracker2.gif">-->
+            <!--<img src="cracker2.gif" <!--style="width:640px;height:480px;">-->
+            <style>
+               @media (min-width:320px)  { 
+               body {
+               background-image: url("cracker2.gif");
+               height: 65%;
+               background-repeat: no-repeat;
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: 500%;
+               }
+               }
+               @media (min-width:1281px) {
+               body {
+               background-image: url("cracker2.gif");
+               height: 65%;
+               background-repeat: no-repeat;
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: 125%;
+               }
+               }
+               @media screen and (max-width: 414px) and (orientation: portrait), screen and (max-width: 736px) and (orientation: landscape){
+               .cc-window.cc-banner {
+               flex-direction: unset !important;
+               padding: 0px !important;
+               }
+               }
+            </style>
+            <footer ng-if="Home">
+               <p><font color="white">Contact Us</font>
+               <p><font color="green">Mobile:</font> <font color="orange">+91-9952066760</font></p>
+               <p><font color="green">Email:</font> <a href="mailto:srikrishnacrackers17@gmail.com"><font color="orange">srikrishnacrackers17@gmail.com</font></a></p><br>
+               <font size="2"color="white">Posted & Powered by</font><br>
+               <font size="3" color="blueviolet"><b>OnlineVanigam Group</b></font><br>
+               <p><font color="deepskyblue">An Authorized Dealer of</font><br>
+                  <font color="purple"><b><big>Sri Krishna</big></b><sup><small>TM</small></sup> Fireworks, Sivakasi</font>
+               </p>
+            </footer>
+         </body>
+      </center>
+      <body ng-if="Table" >
+         <div class="row-fluid content-area" ng-show="Table" style='background-color: white;'>
+            <div ng-app="addressFinder" ng-controller="AddressFinderController" ng-cloak ng-form
+               name="myForm" ng-novalidate>              
+                 <fieldset style='width:10px;align:center'>
+                  <legend>Personal Data:</legend>
+                  </br>
+                  <span> Name*:</span> <input type="text" name="{{::config.RfValidator}}" ng-pattern-restrict="^[a-zA-Z _]*$" ng-model="model['Name']" /></br></br>
+                  <span> Mobile*:</span><input type="number"  name="{{::config.RfValidator}}" ng-model="model['PhoneNumber']"  ng-pattern-restrict="^[0-9]{0,10}$"  maxlength="10" /></br></br>
+                  <span> Email  :</span><input type="email" ng-model="model['Email']"><br>
+                  <span>Address:</span>
+                  <textarea rows="4" cols="25"  ng-model="model['Address']"></textarea>
+               </fieldset>
+
+				  
+               <div id="dvAddressFinder" style="padding-top: 26px;">
+                 <div class="col-md-12" style="width:100%; border:1px;background-color: white">
+                     <div   ng-repeat="config in $root.$$childHead.addressFinderConfigurations?$root.$$childHead.addressFinderConfigurations:addressFinderConfigurations track by $index" >
+					 <div class="col-md-2" ng-if="config.RfValidator==''&&!Desktop" >
+							<a href="#{{config.visible}}"><button style="width: 100%;" class="btn-typ1 align" id={{config.visible}} name="{{config.visible}}" ng-click='ShowHideFunction($event)'>{{config.RfValidatorMinMax}}<span style="padding-left: 10%;" ng-if="ShowHide[config.visible]">V</span><span style="padding-left: 10%;" ng-if="!ShowHide[config.visible]">></span></button></a><br>
+						</div>
+						 <div class="col-md-2" ng-if="config.RfValidator==''&&!Desktop" >
+							<br>
+						</div>
+						 <div ng-show="config.RfValidator>0&&ShowHide[config.visible]" class="col-md-3" >
+							<img ng-src="{{config.LblName}}.jpg">                       
+							<h4>
+							    <div ng-if="config.RfValidator>0">							   
+							   <literal id="id_{{::config.Quantity}}_literal" ng-bind="::config.RfValidatorMinMax"></literal>							  
+								  -<literal id="id_{{::config.Quantity}}_literal" ng-bind="::config.Quantity"></literal><br>
+								  Price:₹
+								  <literal  id="id_{{::config.RfValidator}}_literal" ng-bind="::config.RfValidator"></literal><br>
+								  Quantity:<input type="number" name="{{::config.RfValidator}}" placeholder="Count" ng-model="model[config.LblName]" ng-change="change()" id="{{config.LblName}}" ng-pattern-restrict="^[0-9]{0,3}$" style="width: 35%;" tabindex="6" ng-pattern-reict="{{::number}}" /><span ng-bind="model[config.LblName]*Price[config.LblName]" ng-if="model[config.LblName]*Price[config.LblName]>0"></span>				                                   							 
+							   </div>							
+							   </h4>
+						</div >										
+                     </div>
+                  </div>                  
+               </div><div></br></br></br></div>
+				<div  role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-classic cc-bottom cc-color-override--1247229048 visible-phone visible-tablet  " style=""><span id="cookieconsent:desc" class="cc-message"><span style="font-weight: bold;">Total Amount:</span>₹{{TotalAMount}}<button  class="btn-typ1 align-R" style="display: inline-block; float: right" id="btnFindAddress" name="btnFindAddressang" ng-click='Calculate($event)'>Place Order</button></span>
+				</div>
+			   </div>
+         </div>
+      </body>
+   </div>
+</html>
